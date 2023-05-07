@@ -1,1 +1,1 @@
-![screenshot](https://imgur.com/a/AmasgcE)
+![screenshot](src/img/Capture.PNG)
