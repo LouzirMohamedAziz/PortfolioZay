@@ -1,5 +1,5 @@
 {
-  "name": "PortfolioZay",
+  "name": "@zay/portfolio",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
