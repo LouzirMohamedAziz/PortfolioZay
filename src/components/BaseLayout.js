@@ -18,14 +18,15 @@ export default function BaseLayout() {
    }
 
    useEffect(() => {
-      let detectedDarkMode = eval(localStorage.getItem('darkMode'));
+      let detectedDarkMode = localStorage.getItem('darkMode');
 
-      if (detectedDarkMode) {
-         setDarkMode(detectedDarkMode)
+      if (detectedDarkMode !== null) {
+         setDarkMode(JSON.parse(detectedDarkMode));
       } else {
-         localStorage.setItem('darkMode', 'false')
+         localStorage.setItem('darkMode', 'false');
       }
-   }, [])
+   }, []);
+
 
    return (
       <Box className={darkMode ? Style.dark : Style.light}>
