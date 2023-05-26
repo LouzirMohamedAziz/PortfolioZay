@@ -113,7 +113,7 @@ export const info = {
         },
         {
             title: "My Personal Portfolio",
-            live: "https://github.com/LouzirMohamedAziz/fithub",
+            live: "https://fancy-taffy-e7e323.netlify.app/",
             source: "https://github.com/LouzirMohamedAziz/PortfolioZay",
             image: mock2
         }
