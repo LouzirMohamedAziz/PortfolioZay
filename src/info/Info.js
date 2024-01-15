@@ -1,6 +1,4 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
+import self from "../img/self.png";
 // import mock3 from "../img/mock3.png"
 // import mock4 from "../img/mock4.png"
 // import mock5 from "../img/mock5.png"
@@ -26,14 +24,14 @@ export const info = {
     firstName: "Mohamed Aziz",
     lastName: "LOUZIR",
     initials: "Aziz", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "a Full Stack Java/React Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'Fueled by coffee'
+            text: 'Fueled by Water and Coffee'
         },
         {
             emoji: '🌎',
@@ -45,7 +43,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "PPL Software Developer for VERMEG ( Banking and Insurance )"
+            text: "Software Programmer at VERMEG for banking and insurance"
         },
         {
             emoji: "📧",
@@ -59,7 +57,7 @@ export const info = {
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/azizlouzir/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
@@ -77,11 +75,11 @@ export const info = {
         // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Aziz. I'm a Software Developer for Vermeg. I studied computer engineering at ESPRIT, I enjoy working out and meet people, and I believe that working or studying smart and with consistency is the key to become a master of any skill that you want to learn.",
+    bio: "Hello! I'm Aziz, Software Engineer with over 3 years of experience as Java Developer for the FinTech industry, I enjoy working out and meet people, and I believe that working smart and with consistency is the key to become a master of any situation being an eternal learner.",
     skills:
     {
-        proficientWith: ['Java', 'JEE', 'SpringBoot', 'SQL', 'NoSQL', 'Linux', 'Javascript', 'Git', 'Docker', 'Github'],
-        exposedTo: ['React', 'NodeJS', 'ExpressJS', 'Python', 'Kubernetes', 'Html', 'Azure', 'Css', 'Figma']
+        proficientWith: ['Java', 'JEE', 'SpringBoot','Palmyra Framework', 'SQL', 'NoSQL', 'Linux', 'Javascript', 'Git', 'Docker', 'Github', 'Oracle Databases', 'Jenkins', 'Nexus', 'SonarQube'],
+        exposedTo: ['React', 'NodeJS', 'ExpressJS', 'Python', 'Kubernetes', 'Html', 'Azure', 'Css', 'Figma', 'AWS', 'CSS', 'JSX/TSX', 'TypeScript']
     }
     ,
     hobbies: [
@@ -105,19 +103,19 @@ export const info = {
         // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "E-Shop CRUD using Spring Boot and MongoDB",
-            live: "https://github.com/LouzirMohamedAziz/fithub", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/LouzirMohamedAziz/fithub", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
-            title: "My Personal Portfolio",
-            live: "https://fancy-taffy-e7e323.netlify.app/",
-            source: "https://github.com/LouzirMohamedAziz/PortfolioZay",
-            image: mock2
-        }
-        //
+        // {
+        //     title: "E-Shop CRUD using Spring Boot and MongoDB",
+        //     live: "https://github.com/LouzirMohamedAziz/fithub", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+        //     source: "https://github.com/LouzirMohamedAziz/fithub", // this should be a link to the **repository** of the project, where the code is hosted.
+        //     image: mock1
+        // },
+        // {
+        //     title: "EVALIA: Flutter mobile application",
+        //     live: "https://fancy-taffy-e7e323.netlify.app/",
+        //     source: "https://github.com/LouzirMohamedAziz/PortfolioZay",
+        //     image: mock2
+        // }
+        // //
         // {
         //     title: "Project 3",
         //     live: "https://paytonpierce.dev",

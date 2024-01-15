@@ -1,9 +1,9 @@
+import { Box } from "@mui/material";
 import React, { useState } from 'react';
+import { Link, useLocation } from "react-router-dom";
+import { info } from "../info/Info";
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
-import { Link, useLocation } from "react-router-dom";
-import { Box } from "@mui/material";
-import { info } from "../info/Info";
 
 const links = [
     {
@@ -37,7 +37,7 @@ export default function Navbar({ darkMode, handleClick }) {
         <Box component={'nav'} width={'100%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                 gap={{ xs: '2rem', md: '8rem' }}
-                textTransform={'lowercase'} fontSize={'1rem'}>
+                textTransform={'capitalize'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>
