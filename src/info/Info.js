@@ -24,7 +24,7 @@ export const info = {
     firstName: "Mohamed Aziz",
     lastName: "LOUZIR",
     initials: "Aziz", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Java/React Developer",
+    position: "a Full Stack Java Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -79,7 +79,7 @@ export const info = {
     skills:
     {
         proficientWith: ['Java', 'JEE', 'SpringBoot','Palmyra Framework', 'SQL', 'NoSQL', 'Linux', 'Javascript', 'Git', 'Docker', 'Github', 'Oracle Databases', 'Jenkins', 'Nexus', 'SonarQube'],
-        exposedTo: ['React', 'NodeJS', 'ExpressJS', 'Python', 'Kubernetes', 'Html', 'Azure', 'Css', 'Figma', 'AWS', 'CSS', 'JSX/TSX', 'TypeScript']
+        exposedTo: ['ReactJS', 'Angular', 'NodeJS', 'ExpressJS', 'Python', 'Kubernetes', 'Html', 'Azure', 'Css', 'Figma', 'AWS', 'CSS', 'JSX/TSX', 'TypeScript']
     }
     ,
     hobbies: [
